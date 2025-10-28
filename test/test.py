@@ -3,6 +3,7 @@ from app.main import app
 import json
 
 client = TestClient(app)
+print("✅ test_main.py is being loaded")
 
 
 def test_read_main():
